@@ -1,5 +1,5 @@
 // Package sdp implements RFC 4566 SDP: Session Description Protocol.
-package sdp // import "gortc.io/sdp"
+package sdp // import "github.com/enuan/sdp"
 
 import (
 	"bytes"
@@ -35,7 +35,8 @@ const (
 // Line of SDP session.
 //
 // Form
-// 	<type>=<value>
+//
+//	<type>=<value>
 //
 // Where <type> MUST be exactly one case-significant character and
 // <value> is structured text whose format depends on <type>.

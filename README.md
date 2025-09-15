@@ -1,6 +1,6 @@
 [![Master status](https://tc.gortc.io/app/rest/builds/buildType:(id:sdp_MasterStatus)/statusIcon.svg)](https://tc.gortc.io/project.html?projectId=sdp&tab=projectOverview&guest=1)
 [![codecov](https://codecov.io/gh/gortc/sdp/branch/master/graph/badge.svg)](https://codecov.io/gh/gortc/sdp)
-[![GoDoc](https://godoc.org/gortc.io/sdp?status.svg)](https://godoc.org/gortc.io/sdp)
+[![GoDoc](https://godoc.org/github.com/enuan/sdp?status.svg)](https://godoc.org/github.com/enuan/sdp)
 
 
 # SDP
@@ -43,7 +43,7 @@ import (
 	"net"
 	"time"
 	
-	"gortc.io/sdp"
+	"github.com/enuan/sdp"
 )
 
 func main()  {
@@ -135,7 +135,7 @@ import (
 	"log"
 	"os"
 
-	"gortc.io/sdp"
+	"github.com/enuan/sdp"
 )
 
 func main() {
@@ -180,7 +180,7 @@ package main
 import (
 	"fmt"
 
-	"gortc.io/sdp"
+	"github.com/enuan/sdp"
 )
 
 func main() {
